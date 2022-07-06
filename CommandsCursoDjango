@@ -1,0 +1,20 @@
+https://www.udemy.com/course/curso-django-2-practico-desarrollo-web-python-3/learn/lecture/9344450#overview
+
+
+matcardenas in ~/Escritorio/CursoDjango
+
+ Activar entorno virtual en la ruta de arriba con : pipenv shell
+ 
+ Para salir use exit
+ 
+ 
+ iniciar proyecto:
+ pipenv run django-admin startproject [nombreproject]
+ 
+ 
+ Dentro de la carpeta del proyecto (donde se encuentra el manage.py) para levantar el project, se ejecuta lo siguiente:
+ python3 manage.py runserver
+ 
+ 
+[scripts]
+webpersonal = "python webpersonal/manage.py runserver"
